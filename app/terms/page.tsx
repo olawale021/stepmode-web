@@ -88,13 +88,13 @@ export default function Terms() {
                 To use the Service, you must:
               </p>
               <ul>
-                <li>Be at least <strong>16 years of age</strong></li>
+                <li>Be at least <strong>13 years of age</strong></li>
                 <li>Have the legal capacity to enter into a binding agreement</li>
                 <li>Not be prohibited from using the Service under applicable laws</li>
                 <li>Not have been previously banned or removed from the Service</li>
               </ul>
               <p>
-                If you are between 16 and 18 years old, you represent that you have reviewed these Terms with your parent or guardian, and they agree to these Terms on your behalf and take responsibility for your use of the Service.
+                If you are between 13 and 18 years old, you represent that you have reviewed these Terms with your parent or guardian, and they agree to these Terms on your behalf and take responsibility for your use of the Service.
               </p>
               <p>
                 By using the Service, you represent and warrant that you meet all eligibility requirements. We reserve the right to request proof of age at any time and to suspend or terminate accounts if eligibility requirements are not met.

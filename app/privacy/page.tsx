@@ -49,7 +49,7 @@ export default function Privacy() {
                 We are committed to protecting your privacy and ensuring you understand how your data is handled. Please read this policy carefully. By using StepMode, you agree to the collection and use of information in accordance with this policy.
               </p>
               <p>
-                <strong>Age Requirement:</strong> StepMode is intended for users aged 16 and older. We do not knowingly collect personal information from anyone under the age of 16.
+                <strong>Age Requirement:</strong> StepMode is intended for users aged 13 and older. We do not knowingly collect personal information from anyone under the age of 13.
               </p>
             </div>
 
@@ -550,7 +550,7 @@ export default function Privacy() {
             <div className="legal-section" id="children">
               <h2>12. Children's Privacy</h2>
               <p>
-                StepMode is not intended for users under the age of 16. We do not knowingly collect personal information from children under 16. If we learn that we have collected personal information from a child under 16, we will take steps to delete that information as quickly as possible.
+                StepMode is not intended for users under the age of 13. We do not knowingly collect personal information from children under 13. If we learn that we have collected personal information from a child under 13, we will take steps to delete that information as quickly as possible.
               </p>
               <p>
                 If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <a href="mailto:info@stepmode.app">info@stepmode.app</a>.

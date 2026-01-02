@@ -1,11 +1,12 @@
 {
   "name": "stepmode-web",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "StepMode - Your personal fitness companion",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4040",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 4040",
     "lint": "eslint"
   },
   "dependencies": {

@@ -12,18 +12,14 @@ export default function About() {
         <div className="nav-container">
           <div className="nav-content">
             <Link href="/" className="nav-logo">
-              <div className="nav-logo-icon">
-                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
+              <img src="/logo.png" alt="StepMode Logo" className="nav-logo-img" />
               <span className="nav-brand">StepMode</span>
             </Link>
             <div className="nav-links">
               <Link href="/#features" className="nav-link">Features</Link>
               <Link href="/#community" className="nav-link">Community</Link>
               <Link href="/#how-it-works" className="nav-link">How It Works</Link>
-              <Link href="/#download" className="nav-cta">Get Started Free</Link>
+              <Link href="/contact" className="nav-cta">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -123,15 +119,41 @@ export default function About() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
-          <div className="footer-bottom" style={{ borderTop: 'none', paddingTop: 0 }}>
+          <div className="footer-grid">
+            <div className="footer-brand">
+              <div className="nav-logo" style={{marginBottom: '1rem'}}>
+                <img src="/logo.png" alt="StepMode Logo" className="nav-logo-img" />
+                <span className="nav-brand">StepMode</span>
+              </div>
+              <p className="footer-description">
+                An intelligent coach that learns your habits, adapts to your goals, and keeps you accountable.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="footer-title">Product</h4>
+              <ul className="footer-links">
+                <li><Link href="/#features" className="footer-link">Features</Link></li>
+                <li><Link href="/#how-it-works" className="footer-link">How It Works</Link></li>
+                <li><Link href="/#download" className="footer-link">Download</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="footer-title">Company</h4>
+              <ul className="footer-links">
+                <li><Link href="/about" className="footer-link">About Us</Link></li>
+                <li><Link href="/privacy" className="footer-link">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="footer-link">Terms of Service</Link></li>
+                <li><Link href="/contact" className="footer-link">Contact</Link></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="footer-bottom">
             <p className="footer-copyright">
               © 2025 StepMode. All rights reserved.
             </p>
-            <div className="footer-links-inline">
-              <Link href="/contact" className="footer-link">Contact</Link>
-              <Link href="/privacy" className="footer-link">Privacy</Link>
-              <Link href="/terms" className="footer-link">Terms</Link>
-            </div>
           </div>
         </div>
       </footer>

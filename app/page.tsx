@@ -21,11 +21,7 @@ export default function Home() {
         <div className="nav-container">
           <div className="nav-content">
             <a href="/" className="nav-logo">
-              <div className="nav-logo-icon">
-                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
+              <img src="/logo.png" alt="StepMode Logo" className="nav-logo-img" />
               <span className="nav-brand">StepMode</span>
             </a>
             <div className="nav-links">
@@ -33,7 +29,7 @@ export default function Home() {
               <a href="#community" className="nav-link">Community</a>
               <a href="#ai-coach" className="nav-link">AI Coach</a>
               <a href="#how-it-works" className="nav-link">How It Works</a>
-              <a href="#download" className="nav-cta">Get Started Free</a>
+              <a href="/contact" className="nav-cta">Contact Us</a>
             </div>
           </div>
         </div>
@@ -319,11 +315,7 @@ export default function Home() {
           <div className="footer-grid">
             <div className="footer-brand">
               <div className="nav-logo" style={{marginBottom: '1rem'}}>
-                <div className="nav-logo-icon">
-                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
+                <img src="/logo.png" alt="StepMode Logo" className="nav-logo-img" />
                 <span className="nav-brand">StepMode</span>
               </div>
               <p className="footer-description">

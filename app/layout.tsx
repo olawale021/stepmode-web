@@ -21,10 +21,15 @@ export const metadata: Metadata = {
   description: "Track your workouts, achieve your fitness goals, and join a community of fitness enthusiasts with StepMode.",
   keywords: ["fitness", "workout", "exercise", "health", "fitness app", "workout tracker"],
   authors: [{ name: "StepMode" }],
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     title: "StepMode - Your Personal Fitness Companion",
     description: "Track your workouts, achieve your fitness goals, and join a community of fitness enthusiasts.",
     type: "website",
+    images: ["/logo.png"],
   },
 };
 

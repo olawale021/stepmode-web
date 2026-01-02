@@ -12,18 +12,14 @@ export default function Terms() {
         <div className="nav-container">
           <div className="nav-content">
             <Link href="/" className="nav-logo">
-              <div className="nav-logo-icon">
-                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
+              <img src="/logo.png" alt="StepMode Logo" className="nav-logo-img" />
               <span className="nav-brand">StepMode</span>
             </Link>
             <div className="nav-links">
               <Link href="/#features" className="nav-link">Features</Link>
               <Link href="/#community" className="nav-link">Community</Link>
               <Link href="/#how-it-works" className="nav-link">How It Works</Link>
-              <Link href="/#download" className="nav-cta">Get Started Free</Link>
+              <Link href="/contact" className="nav-cta">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -47,7 +43,7 @@ export default function Terms() {
             <div className="legal-section">
               <h2>1. Introduction and Acceptance</h2>
               <p>
-                Welcome to StepMode. These Terms of Service (&ldquo;Terms&rdquo;) constitute a legally binding agreement between you (&ldquo;User,&rdquo; &ldquo;you,&rdquo; or &ldquo;your&rdquo;) and STEPPAs TECHNOLOGIES LTD, a company registered in England and Wales (&ldquo;StepMode,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
+                Welcome to StepMode. These Terms of Service (&ldquo;Terms&rdquo;) constitute a legally binding agreement between you (&ldquo;User,&rdquo; &ldquo;you,&rdquo; or &ldquo;your&rdquo;) and Olawale Filani (&ldquo;StepMode,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
               </p>
               <p>
                 These Terms govern your access to and use of the StepMode mobile application, website, and all related services (collectively, the &ldquo;Service&rdquo;). By downloading, installing, accessing, or using the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms.
@@ -344,7 +340,7 @@ export default function Terms() {
               </p>
               <ul>
                 <li>Use the in-app reporting feature to flag content or users</li>
-                <li>Contact us at <a href="mailto:support@stepmode.app">support@stepmode.app</a></li>
+                <li>Contact us at <a href="mailto:info@stepmode.app">info@stepmode.app</a></li>
               </ul>
               <p>
                 We will review reports and take appropriate action, which may include content removal, warnings, or account suspension. We may not notify you of the outcome of your report for privacy and safety reasons.
@@ -352,7 +348,7 @@ export default function Terms() {
 
               <h3>9.3 Appeals</h3>
               <p>
-                If your content is removed or your account is actioned and you believe this was in error, you may appeal by contacting us at <a href="mailto:support@stepmode.app">support@stepmode.app</a>. See Section 12 for details on the appeals process.
+                If your content is removed or your account is actioned and you believe this was in error, you may appeal by contacting us at <a href="mailto:info@stepmode.app">info@stepmode.app</a>. See Section 12 for details on the appeals process.
               </p>
             </div>
 
@@ -362,7 +358,7 @@ export default function Terms() {
 
               <h3>10.1 Our Intellectual Property</h3>
               <p>
-                The Service, including all content, features, and functionality, is owned by STEPPAs TECHNOLOGIES LTD and is protected by international copyright, trademark, patent, and other intellectual property laws.
+                The Service, including all content, features, and functionality, is owned by Olawale Filani and is protected by international copyright, trademark, patent, and other intellectual property laws.
               </p>
               <p>
                 This includes, but is not limited to:
@@ -402,7 +398,7 @@ export default function Terms() {
 
               <h3>10.4 Copyright Infringement</h3>
               <p>
-                We respect intellectual property rights. If you believe your copyright has been infringed, please contact us at <a href="mailto:support@stepmode.app">support@stepmode.app</a> with:
+                We respect intellectual property rights. If you believe your copyright has been infringed, please contact us at <a href="mailto:info@stepmode.app">info@stepmode.app</a> with:
               </p>
               <ul>
                 <li>Description of the copyrighted work</li>
@@ -488,7 +484,7 @@ export default function Terms() {
               </p>
               <ul>
                 <li>Using the account deletion feature in the app settings</li>
-                <li>Contacting us at <a href="mailto:support@stepmode.app">support@stepmode.app</a></li>
+                <li>Contacting us at <a href="mailto:info@stepmode.app">info@stepmode.app</a></li>
               </ul>
               <p>
                 Upon termination, your access to the Service will end, and your data will be deleted in accordance with our Privacy Policy.
@@ -512,7 +508,7 @@ export default function Terms() {
                 If your account is suspended, you may appeal within <strong>14 days</strong> by:
               </p>
               <ul>
-                <li>Emailing <a href="mailto:support@stepmode.app">support@stepmode.app</a> with subject line &ldquo;Account Appeal&rdquo;</li>
+                <li>Emailing <a href="mailto:info@stepmode.app">info@stepmode.app</a> with subject line &ldquo;Account Appeal&rdquo;</li>
                 <li>Explaining why you believe the suspension was in error</li>
                 <li>Providing any relevant information to support your case</li>
               </ul>
@@ -615,7 +611,7 @@ export default function Terms() {
             <div className="legal-section" id="indemnification">
               <h2>16. Indemnification</h2>
               <p>
-                You agree to indemnify, defend, and hold harmless StepMode, STEPPAs TECHNOLOGIES LTD, and our officers, directors, employees, agents, and affiliates from and against any and all claims, damages, losses, costs, and expenses (including reasonable legal fees) arising from:
+                You agree to indemnify, defend, and hold harmless StepMode, Olawale Filani, and our officers, directors, employees, agents, and affiliates from and against any and all claims, damages, losses, costs, and expenses (including reasonable legal fees) arising from:
               </p>
               <ul>
                 <li>Your use of the Service</li>
@@ -645,7 +641,7 @@ export default function Terms() {
 
               <h3>17.3 Informal Resolution</h3>
               <p>
-                Before initiating any formal legal proceedings, you agree to first contact us at <a href="mailto:support@stepmode.app">support@stepmode.app</a> and attempt to resolve the dispute informally for at least 30 days.
+                Before initiating any formal legal proceedings, you agree to first contact us at <a href="mailto:info@stepmode.app">info@stepmode.app</a> and attempt to resolve the dispute informally for at least 30 days.
               </p>
 
               <h3>17.4 Consumer Rights</h3>
@@ -690,7 +686,7 @@ export default function Terms() {
 
               <h3>18.7 Notices</h3>
               <p>
-                We may provide notices to you via email, in-app notifications, or by posting on the Service. You may provide notices to us by emailing <a href="mailto:support@stepmode.app">support@stepmode.app</a>.
+                We may provide notices to you via email, in-app notifications, or by posting on the Service. You may provide notices to us by emailing <a href="mailto:info@stepmode.app">info@stepmode.app</a>.
               </p>
 
               <h3>18.8 Language</h3>
@@ -706,9 +702,9 @@ export default function Terms() {
                 If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us:
               </p>
               <div className="contact-box">
-                <p><strong>STEPPAs TECHNOLOGIES LTD</strong></p>
+                <p><strong>Olawale Filani</strong></p>
                 <p>Registered in England and Wales</p>
-                <p>Email: <a href="mailto:support@stepmode.app">support@stepmode.app</a></p>
+                <p>Email: <a href="mailto:info@stepmode.app">info@stepmode.app</a></p>
               </div>
               <p>
                 We aim to respond to all inquiries within 14 business days.
@@ -722,15 +718,41 @@ export default function Terms() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
-          <div className="footer-bottom" style={{ borderTop: 'none', paddingTop: 0 }}>
+          <div className="footer-grid">
+            <div className="footer-brand">
+              <div className="nav-logo" style={{marginBottom: '1rem'}}>
+                <img src="/logo.png" alt="StepMode Logo" className="nav-logo-img" />
+                <span className="nav-brand">StepMode</span>
+              </div>
+              <p className="footer-description">
+                An intelligent coach that learns your habits, adapts to your goals, and keeps you accountable.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="footer-title">Product</h4>
+              <ul className="footer-links">
+                <li><Link href="/#features" className="footer-link">Features</Link></li>
+                <li><Link href="/#how-it-works" className="footer-link">How It Works</Link></li>
+                <li><Link href="/#download" className="footer-link">Download</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="footer-title">Company</h4>
+              <ul className="footer-links">
+                <li><Link href="/about" className="footer-link">About Us</Link></li>
+                <li><Link href="/privacy" className="footer-link">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="footer-link">Terms of Service</Link></li>
+                <li><Link href="/contact" className="footer-link">Contact</Link></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="footer-bottom">
             <p className="footer-copyright">
               © 2025 StepMode. All rights reserved.
             </p>
-            <div className="footer-links-inline">
-              <Link href="/about" className="footer-link">About</Link>
-              <Link href="/contact" className="footer-link">Contact</Link>
-              <Link href="/privacy" className="footer-link">Privacy</Link>
-            </div>
           </div>
         </div>
       </footer>

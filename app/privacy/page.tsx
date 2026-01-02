@@ -12,18 +12,14 @@ export default function Privacy() {
         <div className="nav-container">
           <div className="nav-content">
             <Link href="/" className="nav-logo">
-              <div className="nav-logo-icon">
-                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
+              <img src="/logo.png" alt="StepMode Logo" className="nav-logo-img" />
               <span className="nav-brand">StepMode</span>
             </Link>
             <div className="nav-links">
               <Link href="/#features" className="nav-link">Features</Link>
               <Link href="/#community" className="nav-link">Community</Link>
               <Link href="/#how-it-works" className="nav-link">How It Works</Link>
-              <Link href="/#download" className="nav-cta">Get Started Free</Link>
+              <Link href="/contact" className="nav-cta">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -47,7 +43,7 @@ export default function Privacy() {
             <div className="legal-section">
               <h2>1. Introduction</h2>
               <p>
-                Welcome to StepMode. This Privacy Policy explains how STEPPAs TECHNOLOGIES LTD ("StepMode," "we," "us," or "our") collects, uses, shares, and protects your personal information when you use our mobile application and related services (collectively, the "Service").
+                Welcome to StepMode. This Privacy Policy explains how Olawale Filani ("StepMode," "we," "us," or "our") collects, uses, shares, and protects your personal information when you use our mobile application and related services (collectively, the "Service").
               </p>
               <p>
                 We are committed to protecting your privacy and ensuring you understand how your data is handled. Please read this policy carefully. By using StepMode, you agree to the collection and use of information in accordance with this policy.
@@ -503,7 +499,7 @@ export default function Privacy() {
                 <li><strong>Opt-Out:</strong> Opt out of push notifications via device settings</li>
               </ul>
               <p>
-                To exercise these rights, you can use the account settings in the app or contact us at <a href="mailto:support@stepmode.app">support@stepmode.app</a>.
+                To exercise these rights, you can use the account settings in the app or contact us at <a href="mailto:info@stepmode.app">info@stepmode.app</a>.
               </p>
 
               <h3>11.2 Additional Rights for EEA, UK, and Swiss Users (GDPR)</h3>
@@ -526,7 +522,7 @@ export default function Privacy() {
                 <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising your privacy rights</li>
               </ul>
               <p>
-                To submit a request, email us at <a href="mailto:support@stepmode.app">support@stepmode.app</a> with "California Privacy Request" in the subject line.
+                To submit a request, email us at <a href="mailto:info@stepmode.app">info@stepmode.app</a> with "California Privacy Request" in the subject line.
               </p>
 
               <h3>11.4 Additional Rights for Brazilian Users (LGPD)</h3>
@@ -557,7 +553,7 @@ export default function Privacy() {
                 StepMode is not intended for users under the age of 16. We do not knowingly collect personal information from children under 16. If we learn that we have collected personal information from a child under 16, we will take steps to delete that information as quickly as possible.
               </p>
               <p>
-                If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <a href="mailto:support@stepmode.app">support@stepmode.app</a>.
+                If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <a href="mailto:info@stepmode.app">info@stepmode.app</a>.
               </p>
             </div>
 
@@ -587,8 +583,8 @@ export default function Privacy() {
                 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
               </p>
               <div className="contact-box">
-                <p><strong>STEPPAs TECHNOLOGIES LTD</strong></p>
-                <p>Email: <a href="mailto:support@stepmode.app">support@stepmode.app</a></p>
+                <p><strong>Olawale Filani</strong></p>
+                <p>Email: <a href="mailto:info@stepmode.app">info@stepmode.app</a></p>
               </div>
               <p>
                 We aim to respond to all inquiries within 30 days.
@@ -602,15 +598,41 @@ export default function Privacy() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
-          <div className="footer-bottom" style={{ borderTop: 'none', paddingTop: 0 }}>
+          <div className="footer-grid">
+            <div className="footer-brand">
+              <div className="nav-logo" style={{marginBottom: '1rem'}}>
+                <img src="/logo.png" alt="StepMode Logo" className="nav-logo-img" />
+                <span className="nav-brand">StepMode</span>
+              </div>
+              <p className="footer-description">
+                An intelligent coach that learns your habits, adapts to your goals, and keeps you accountable.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="footer-title">Product</h4>
+              <ul className="footer-links">
+                <li><Link href="/#features" className="footer-link">Features</Link></li>
+                <li><Link href="/#how-it-works" className="footer-link">How It Works</Link></li>
+                <li><Link href="/#download" className="footer-link">Download</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="footer-title">Company</h4>
+              <ul className="footer-links">
+                <li><Link href="/about" className="footer-link">About Us</Link></li>
+                <li><Link href="/privacy" className="footer-link">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="footer-link">Terms of Service</Link></li>
+                <li><Link href="/contact" className="footer-link">Contact</Link></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="footer-bottom">
             <p className="footer-copyright">
               © 2025 StepMode. All rights reserved.
             </p>
-            <div className="footer-links-inline">
-              <Link href="/about" className="footer-link">About</Link>
-              <Link href="/contact" className="footer-link">Contact</Link>
-              <Link href="/terms" className="footer-link">Terms</Link>
-            </div>
           </div>
         </div>
       </footer>

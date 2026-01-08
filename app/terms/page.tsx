@@ -318,9 +318,36 @@ export default function Terms() {
 
             {/* Content Moderation */}
             <div className="legal-section" id="moderation">
-              <h2>9. Content Moderation and Reporting</h2>
+              <h2>9. Content Moderation, Safety Features, and Reporting</h2>
 
-              <h3>9.1 Our Right to Moderate</h3>
+              <h3>9.1 End User License Agreement (EULA)</h3>
+              <p>
+                Upon first login or after significant updates to these Terms, you will be required to accept our End User License Agreement. By accepting the EULA, you agree to:
+              </p>
+              <ul>
+                <li>A <strong>zero tolerance policy</strong> for objectionable content and abusive behaviour</li>
+                <li>Comply with all community guidelines and content policies</li>
+                <li>Accept that violation of these terms may result in immediate account termination</li>
+              </ul>
+              <p>
+                If you decline the EULA, you will not be able to use the Service and will be logged out immediately.
+              </p>
+
+              <h3>9.2 Automated Content Filtering</h3>
+              <p>
+                To maintain a safe and welcoming community, we employ automated content filtering systems:
+              </p>
+              <ul>
+                <li><strong>AI-Powered Moderation:</strong> All user-generated content (posts, comments, profile information, usernames) is automatically screened using AI moderation technology</li>
+                <li><strong>Categories Detected:</strong> Hate speech, harassment, self-harm content, sexual content, violence, and other objectionable material</li>
+                <li><strong>Automatic Blocking:</strong> Content that violates our guidelines will be automatically blocked from being posted</li>
+                <li><strong>No Bypass Attempts:</strong> Attempting to circumvent content filters (using special characters, spacing, or other methods) is a violation of these Terms</li>
+              </ul>
+              <p>
+                If your content is blocked, you will receive a notification explaining that it violates community guidelines. You must revise your content to comply before posting.
+              </p>
+
+              <h3>9.3 Our Right to Moderate</h3>
               <p>
                 We reserve the right, but have no obligation, to:
               </p>
@@ -334,21 +361,41 @@ export default function Terms() {
                 We are not responsible for pre-screening content and do not endorse any User Content. The presence of content on the Service does not indicate our approval.
               </p>
 
-              <h3>9.2 Reporting Violations</h3>
+              <h3>9.4 Blocking Users</h3>
               <p>
-                If you encounter content or behaviour that violates these Terms, you can:
+                You have the ability to block other users who you find objectionable or who are harassing you:
               </p>
               <ul>
-                <li>Use the in-app reporting feature to flag content or users</li>
-                <li>Contact us at <a href="mailto:info@stepmode.app">info@stepmode.app</a></li>
+                <li><strong>How to Block:</strong> Tap the menu icon (⋯) on any post or user profile and select &ldquo;Block User&rdquo;</li>
+                <li><strong>Immediate Effect:</strong> Blocked users&apos; content will instantly disappear from your feed</li>
+                <li><strong>Mutual Restriction:</strong> Blocked users cannot see your posts, follow you, or interact with your content</li>
+                <li><strong>Automatic Unfollow:</strong> Blocking a user automatically unfollows them and removes them from your followers</li>
+                <li><strong>Managing Blocks:</strong> View and manage your blocked users list in Settings → Blocked Users</li>
+                <li><strong>Privacy:</strong> Blocked users are not notified that they have been blocked</li>
+              </ul>
+
+              <h3>9.5 Reporting Violations</h3>
+              <p>
+                If you encounter content or behaviour that violates these Terms, you can report it directly in the app:
+              </p>
+              <ul>
+                <li><strong>Report Posts:</strong> Tap the menu icon (⋯) on any post and select &ldquo;Report Post&rdquo;</li>
+                <li><strong>Report Comments:</strong> Tap the menu icon (⋯) on any comment and select &ldquo;Report Comment&rdquo;</li>
+                <li><strong>Report Users:</strong> Visit a user&apos;s profile, tap the menu icon (⋯), and select &ldquo;Report User&rdquo;</li>
+                <li><strong>Report Categories:</strong> Spam, Harassment, Hate Speech, Violence, Nudity, Self-Harm, Impersonation, or Other</li>
+                <li><strong>Additional Details:</strong> You can provide additional context to help us investigate</li>
+                <li><strong>Optional Block:</strong> When reporting, you have the option to also block the user</li>
               </ul>
               <p>
-                We will review reports and take appropriate action, which may include content removal, warnings, or account suspension. We may not notify you of the outcome of your report for privacy and safety reasons.
+                <strong>Our Commitment:</strong> All reports are reviewed within 24 hours. We take every report seriously and will take appropriate action, which may include content removal, warnings, or account termination.
+              </p>
+              <p>
+                You may also contact us directly at <a href="mailto:info@stepmode.app">info@stepmode.app</a> for urgent matters.
               </p>
 
-              <h3>9.3 Appeals</h3>
+              <h3>9.6 Appeals</h3>
               <p>
-                If your content is removed or your account is actioned and you believe this was in error, you may appeal by contacting us at <a href="mailto:info@stepmode.app">info@stepmode.app</a>. See Section 12 for details on the appeals process.
+                If your content is removed or your account is actioned and you believe this was in error, you may appeal by contacting us at <a href="mailto:info@stepmode.app">info@stepmode.app</a>. See Section 13 for details on the appeals process.
               </p>
             </div>
 

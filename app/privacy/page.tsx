@@ -121,6 +121,15 @@ export default function Privacy() {
                 <li>Information about users you follow</li>
               </ul>
 
+              <h4>Safety and Moderation Data</h4>
+              <p>To maintain a safe community, we collect:</p>
+              <ul>
+                <li>Content reports you submit (including report type and description)</li>
+                <li>Users you have blocked</li>
+                <li>EULA acceptance records (version accepted and timestamp)</li>
+                <li>Content moderation decisions and actions taken</li>
+              </ul>
+
               <h4>Communications</h4>
               <p>When you contact us, we collect:</p>
               <ul>
@@ -204,11 +213,15 @@ export default function Privacy() {
                 <li>Send important service announcements</li>
               </ul>
 
-              <h3>4.4 Safety and Security</h3>
+              <h3>4.4 Safety, Security, and Content Moderation</h3>
               <ul>
                 <li>Monitor for and prevent fraud, abuse, and security incidents</li>
                 <li>Diagnose and fix technical issues</li>
                 <li>Ensure compliance with our Terms of Service</li>
+                <li>Automatically screen content using AI moderation to detect policy violations</li>
+                <li>Process and investigate user reports of objectionable content</li>
+                <li>Enforce blocking relationships between users</li>
+                <li>Take action against users who violate community guidelines</li>
               </ul>
 
               <h3>4.5 Analytics and Improvement</h3>
@@ -372,7 +385,21 @@ export default function Privacy() {
                 <li>Error stack traces</li>
               </ul>
               <p>
-                This data is used solely for debugging and improving app stability. Sentry's privacy policy governs their handling of this data.
+                This data is used solely for debugging and improving app stability. Sentry&apos;s privacy policy governs their handling of this data.
+              </p>
+
+              <h3>7.5 OpenAI (Content Moderation)</h3>
+              <p>
+                We use OpenAI&apos;s Moderation API to automatically screen user-generated content for policy violations:
+              </p>
+              <ul>
+                <li><strong>What is sent:</strong> Text content from posts, comments, usernames, and profile bios</li>
+                <li><strong>Purpose:</strong> To detect hate speech, harassment, self-harm content, sexual content, violence, and other objectionable material</li>
+                <li><strong>Data retention:</strong> OpenAI does not retain content sent to the Moderation API</li>
+                <li><strong>No training:</strong> Your content is not used to train OpenAI&apos;s models</li>
+              </ul>
+              <p>
+                This processing is necessary to maintain a safe community and comply with App Store guidelines. OpenAI&apos;s privacy policy and usage policies govern their handling of this data.
               </p>
             </div>
 
@@ -431,6 +458,21 @@ export default function Privacy() {
                     <td>Support communications</td>
                     <td>2 years</td>
                     <td>2 years</td>
+                  </tr>
+                  <tr>
+                    <td>Content reports submitted</td>
+                    <td>2 years</td>
+                    <td>2 years (for legal compliance)</td>
+                  </tr>
+                  <tr>
+                    <td>Block relationships</td>
+                    <td>Retained</td>
+                    <td>Deleted within 30 days</td>
+                  </tr>
+                  <tr>
+                    <td>EULA acceptance records</td>
+                    <td>Retained</td>
+                    <td>Deleted within 30 days</td>
                   </tr>
                   <tr>
                     <td>Backup systems</td>

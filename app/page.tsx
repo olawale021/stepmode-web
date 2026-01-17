@@ -2,9 +2,11 @@
 
 import { useState, useEffect } from 'react';
 import './page.css';
+import RequestAccessModal from './components/RequestAccessModal';
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,23 +49,23 @@ export default function Home() {
           <div className="hero-content">
             <div className="hero-badge">
               <span className="hero-badge-dot"></span>
-              <span>Coming soon on iOS and Android</span>
+              <span>Available on iOS, coming soon on Android</span>
             </div>
 
             <h1 className="hero-title">
-              Just Show Up.
+              You Show Up.
               <br />
-              <span className="hero-title-gradient">We'll Handle the Rest.</span>
+              <span className="hero-title-gradient">We Keep You on Track.</span>
             </h1>
 
             <p className="hero-description">
-              An intelligent coach that learns your habits, adapts to your goals, and keeps you accountable.
+              Fitness with direction — smart workouts, adaptive plans, and built-in accountability that moves you forward.
             </p>
 
             <div className="hero-cta">
-              <a href="#download" className="btn-primary">
-                Join the Waitlist
-              </a>
+              <button onClick={() => setIsModalOpen(true)} className="btn-primary">
+                Request Access
+              </button>
               <a href="#features" className="btn-secondary">
                 <span>See How It Works</span>
                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
@@ -368,6 +370,11 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      <RequestAccessModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </div>
   );
 }
